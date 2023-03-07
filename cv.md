@@ -2,26 +2,27 @@
 
 ![avatar](avatar.png)
 
-I am looking for a Full-Stack Developer position with the opportunity to grow and improve my skills. I have a strong knowledge of PHP and more than 5 years of
+I am looking for a Full-Stack Developer position with the opportunity to grow and improve my skills.  I have a strong knowledge of PHP and more than 5 years of
 experience in Back-End website development using CMS WordPress and Drupal. Moreover, I'm diligently working on improving my Front-End developer skills.
 
 ## Contacts
-Email: volkova5005@gmail.com   
-[LinkedIn](https://www.linkedin.com/in/ekaterina-volkova/)  
+Email: volkova5005@gmail.com  
+Discord nickname: Kate V (@EkaterynaVolkova)  
+[LinkedIn](https://www.linkedin.com/in/ekaterina-volkova/)
 
 ## Skills
 
-* Javascript
-* HTML/CSS3
-* Bootstrap/JQUERY
 * PHP
 * MySql
+* Javascript
+* HTML/CSS3
+* Bootstrap/jQuery
 
 ## Experience
 
-**WordPress/Drupal Back-end Developer | WEB4PRO**
-Building and support of functionality that processes data and performs actions on websites.
-Experience of working in an international team.
+**WordPress/Drupal Back-end Developer | WEB4PRO**  
+Building and support of functionality that processes data and performs actions on websites.  
+Experience of working in an international team.  
 2018 - present
 
 ## Code Example
@@ -38,6 +39,10 @@ return res;
 
 
 ## Education
+
+**RS School**  
+JavaScript/Front-end  
+2023
 
 **Source it**  
 HTML+CSS  
@@ -57,4 +62,4 @@ Donetsk National Technical University, Ukraine
 
 
 ## Languages
-English - Intermediate
+English - Intermediate (B1)
