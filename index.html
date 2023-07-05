@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>CV</title>
-    </head>
-    <body>
 
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="./images/cv.png">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Ekaterina <span>Volkova</span></h1>
+      <div class="position">Full-stack developer</div>
+      <img src="./images/avatar.png" alt="avatar">
+    </header>
+    <div class="main-wrap">
+      <main>
+        <div class="contacts">
+          <div class="contact-item">
+            <h3>Email</h3>
+            <div>volkova5005@gmail.com</div>
+          </div>
+          <div class="contact-item">
+            <h3>Discord nickname</h3>
+            <div>Kate V (@EkaterynaVolkova)</div>
+          </div>
+          <div class="contact-item">
+            <h3>
+              <a href="https://www.linkedin.com/in/ekaterina-volkova/">
+                LinkedIn
+              </a>
+            </h3>
+          </div>
+        </div>
+        <div class="main-info">
+          <div class="main-info-item">
+            <h2>Profile</h2>
+            <div>I am looking for a Full-Stack Developer position with the opportunity to grow and improve my skills. I
+              have a strong knowledge of PHP and more than 5 years of
+              experience in Back-End website development using CMS WordPress and Drupal. Moreover, I'm diligently
+              working
+              on improving my Front-End developer skills.</div>
+          </div>
+          <div class="main-info-item">
+            <h2>Experience</h2>
+            <div class="exp-item">
+              <div class="exp-title title">WordPress/Drupal Back-end Developer | WEB4PRO</div>
+              <div class="exp-desc">
+                Building and support of functionality that processes data and performs actions on websites.
+                Experience of working in an international team.
+              </div>
+              <div class="date">2018 - present</div>
+            </div>
+          </div>
+          <div class="main-info-item">
+            <h2>Code Example</h2>
+            <div class="title">
+              Get the Middle Character
+              <pre>
+                <code>
+                  function getMiddle(s){
+                    var res = (s.length % 2) ?  s[(s.length-1) / 2] : 
+                                              s[ s.length / 2 - 1] + s[s.length / 2];
+                  
+                    return res;
+                  }
+            </code>
+            </pre>
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside>
+        <div class="education">
+          <h2>Education</h2>
+          <div class="educatio-item">
+            <div class="date">2023</div>
+            <div class="course-name title">JavaScript/Front-end</div>
+            <div class="course">RS School</div>
+          </div>
+          <div class="educatio-item">
+            <div class="date">2021</div>
+            <div class="course-name title">HTML+CSS</div>
+            <div class="course">Source it</div>
+          </div>
+          <div class="educatio-item">
+            <div class="date">2017-2018</div>
+            <div class="course-name title">Php Advanced</div>
+            <div class="course">A-Level courses</div>
+          </div>
+          <div class="educatio-item">
+            <div class="date">2015</div>
+            <div class="course-name title">Manual QA</div>
+            <div class="course">IT STEP</div>
+          </div>
+          <div class="educatio-item">
+            <div class="date">2004-2009</div>
+            <div class="course-name title">Donetsk National Technical University</div>
+            <div class="course">Computer Systems Engineer</div>
+          </div>
+        </div>
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>PHP</li>
+            <li>MySql</li>
+            <li>Javascript</li>
+            <li>HTML/CSS3</li>
+            <li>Bootstrap/jQuery</li>
+          </ul>
+        </div>
+        <div class="Languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>English - Intermediate (B1)</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <a href="https://github.com/EkaterynaVolkova" class="github">GitHub</a>
+      <div class="copyrights">@2023</div>
+      <a class="logo" href="https://rs.school/js/"><img src="./images/rs_school_js.svg" alt="logo"></a>
+    </footer>
+  </div>
+</body>
+
 </html>
