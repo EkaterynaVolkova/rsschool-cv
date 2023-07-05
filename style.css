@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url(./fonts/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #737373;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  height: 350px;
+  padding: 0 40px;
+}
+
+header img {
+  position: absolute;
+  right: 150px;
+  height: 300px;
+  background-color: #eeeeee;
+}
+
+h1,
+h1 span {
+  width: 200px;
+  font-size: 58px;
+  text-align: start;
+}
+
+h1 span,
+.title,
+h2 {
+  font-family: 'Montserrat Bold', sans-serif;
+}
+
+h1,
+h1 span,
+h2 {
+  color: black;
+}
+
+.position {
+  font-size: 32px;
+  width: 100%;
+  border-top: 2px solid #e2d3d3;
+}
+
+/* main */
+
+.main-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: 60%;
+}
+
+aside {
+  width: 40%;
+  padding: 40px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: black;
+}
+
+
+.contact-item {
+  width: 200px;
+  font-size: 14px;
+}
+
+.contacts * {
+  color: white;
+}
+
+h3 {
+  font-weight: 900;
+  padding: 5px 0;
+}
+
+.main-info {
+  padding: 0 40px;
+}
+
+.main-info-item {
+  margin: 20px 0;
+  line-height: 26px;
+  text-align: justify;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+pre,
+aside {
+  background-color: #eeeeee;
+}
+
+.title,
+.date {
+  margin: 5px 0;
+}
+
+.educatio-item {
+  margin: 20px 0px;
+}
+
+ul>li {
+  margin: 15px 0px;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+footer * {
+  color: white;
+}
+
+footer img {
+  width: 100px;
+  background-color: white;
+}
+
+a:hover {
+  color:#7fffff;
+}
