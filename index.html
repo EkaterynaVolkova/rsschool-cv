@@ -5,127 +5,276 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="./images/cv.png">
+  <script src="https://kit.fontawesome.com/73785ab689.js" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
   <title>CV</title>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>Ekaterina <span>Volkova</span></h1>
-      <div class="position">Full-stack developer</div>
-      <img src="./images/avatar.png" alt="avatar">
-    </header>
-    <div class="main-wrap">
-      <main>
-        <div class="contacts">
-          <div class="contact-item">
-            <h3>Email</h3>
-            <div>volkova5005@gmail.com</div>
-          </div>
-          <div class="contact-item">
-            <h3>Discord nickname</h3>
-            <div>Kate V (@EkaterynaVolkova)</div>
-          </div>
-          <div class="contact-item">
-            <h3>
-              <a href="https://www.linkedin.com/in/ekaterina-volkova/">
-                LinkedIn
-              </a>
-            </h3>
-          </div>
+  <header class="header">
+    <div class="wrapper">
+      <nav class="header-nav">
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <div class="main-info">
-          <div class="main-info-item">
-            <h2>Profile</h2>
-            <div>I am looking for a Full-Stack Developer position with the opportunity to grow and improve my skills. I
-              have a strong knowledge of PHP and more than 5 years of
-              experience in Back-End website development using CMS WordPress and Drupal. Moreover, I'm diligently
-              working
-              on improving my Front-End developer skills.</div>
-          </div>
-          <div class="main-info-item">
-            <h2>Experience</h2>
-            <div class="exp-item">
-              <div class="exp-title title">WordPress/Drupal Back-end Developer | WEB4PRO</div>
-              <div class="exp-desc">
-                Building and support of functionality that processes data and performs actions on websites.
-                Experience of working in an international team.
-              </div>
-              <div class="date">2018 - present</div>
-            </div>
-          </div>
-          <div class="main-info-item">
-            <h2>Code Example</h2>
-            <div class="title">
-              Get the Middle Character
-              <pre>
-                <code>
-                  function getMiddle(s){
-                    var res = (s.length % 2) ?  s[(s.length-1) / 2] : 
-                                              s[ s.length / 2 - 1] + s[s.length / 2];
-                  
-                    return res;
-                  }
-            </code>
-            </pre>
-            </div>
-          </div>
-        </div>
-      </main>
-      <aside>
-        <div class="education">
-          <h2>Education</h2>
-          <div class="educatio-item">
-            <div class="date">2023</div>
-            <div class="course-name title">JavaScript/Front-end</div>
-            <div class="course">RS School</div>
-          </div>
-          <div class="educatio-item">
-            <div class="date">2021</div>
-            <div class="course-name title">HTML+CSS</div>
-            <div class="course">Source it</div>
-          </div>
-          <div class="educatio-item">
-            <div class="date">2017-2018</div>
-            <div class="course-name title">Php Advanced</div>
-            <div class="course">A-Level courses</div>
-          </div>
-          <div class="educatio-item">
-            <div class="date">2015</div>
-            <div class="course-name title">Manual QA</div>
-            <div class="course">IT STEP</div>
-          </div>
-          <div class="educatio-item">
-            <div class="date">2004-2009</div>
-            <div class="course-name title">Donetsk National Technical University</div>
-            <div class="course">Computer Systems Engineer</div>
-          </div>
-        </div>
-        <div class="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>PHP</li>
-            <li>MySql</li>
-            <li>Javascript</li>
-            <li>HTML/CSS3</li>
-            <li>Bootstrap/jQuery</li>
-          </ul>
-        </div>
-        <div class="Languages">
-          <h2>Languages</h2>
-          <ul>
-            <li>English - Intermediate (B1)</li>
-          </ul>
-        </div>
-      </aside>
+      </nav>
     </div>
-    <footer>
-      <a href="https://github.com/EkaterynaVolkova" class="github">GitHub</a>
+  </header>
+  <main>
+    <div class="wrapper main-wrapper">
+      <div class="left-column">
+        <div id="about"></div>
+        <img class="photo" src="images/avatar.jpg">
+        <!-- MOBILE ABOUT -->
+        <div class="mobile-about cv-chapter">
+          <h1 class="about-header">Volkova Ekaterina</h1>
+          <h2 class="position">Full-Stack Developer</h2>
+          <div class="resume">
+            I am looking for the "Full-Stack/Back-End Developer" position with the opportunity to grow and improve my
+            skills. I
+            have a strong knowledge of PHP and more than 5 years of
+            experience in Back-End website development using CMS WordPress and Drupal. Moreover, I'm diligently
+            working on improving my Front-End developer skills.
+          </div>
+        </div>
+        <!-- CONTACTS -->
+        <div id="contacts" class="contacts cv-chapter">
+          <div class="cv-chapter__info">
+            <ul class="contacts-list">
+              <li>
+                <a href="mailto:volkova5005@gmail.com">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>volkova5005@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/ekaterina-volkova/">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-discord"></i>
+                  <span>Kate V (@EkaterynaVolkova)</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Bulgaria</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- SKILLS -->
+        <div id="skills" class="skills cv-chapter">
+          <h2 class="cv-chapter__title">Skills</h2>
+          <div class="cv-chapter__info">
+            <ul class="cv-chapter__list">
+              <li>PHP</li>
+              <li>MySql</li>
+              <li>Javascript</li>
+              <li>HTML/CSS3</li>
+              <li>Bootstrap/jQuery</li>
+            </ul>
+          </div>
+        </div>
+        <!-- LANGUAGES -->
+        <div id="languages" class="languages cv-chapter">
+          <h2 class="cv-chapter__title">Languages</h2>
+          <div class="cv-chapter__info">
+            <ul class="cv-chapter__list">
+              <li>English - Intermediate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right-column">
+        <!--  ABOUT-->
+        <div class="about cv-chapter">
+          <h1 class="about-header">Volkova Ekaterina</h1>
+          <h2 class="position">Full-Stack Developer</h2>
+          <div class="resume">
+            I am looking for the "Full-Stack/Back-End Developer" position with the opportunity to grow and improve my
+            skills. I
+            have a strong knowledge of PHP and more than 5 years of
+            experience in Back-End website development using CMS WordPress and Drupal. Moreover, I'm diligently
+            working on improving my Front-End developer skills.
+          </div>
+        </div>
+        <!-- EXPERIENCE -->
+        <div id="experience" class="experience cv-chapter">
+          <h2 class="cv-chapter__title">Experience</h2>
+          <div class="cv-chapter__info">
+            <div class="cv-chapter__item">
+              <h3 class="cv-chapter__subtitle">WordPress/Drupal Back-end Developer | WEB4PRO</h3>
+              <div class="experience-date">2018 - present</div>
+              <ul class="cv-chapter__list">
+                <li>Building and support of functionality that processes data and performs actions on websites.</li>
+                <li>Experience of working in an international team.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- EDUCATION -->
+        <div id="education" class="education cv-chapter">
+          <h2 class="cv-chapter__title">Education</h2>
+          <div class="cv-chapter__info">
+            <div class="cv-chapter__item">
+              <div class="date">2023</div>
+              <div class="course">RS School</div>
+              <h3 class="cv-chapter__subtitle">JavaScript/Front-end</h3>
+            </div>
+            <div class="cv-chapter__item">
+              <div class="date">2021</div>
+              <div class="course">Source it</div>
+              <h3 class="cv-chapter__subtitle">HTML+CSS</h3>
+            </div>
+            <div class="cv-chapter__item">
+              <div class="date">2017-2018</div>
+              <div class="course">A-Level courses</div>
+              <h3 class="cv-chapter__subtitle">Php Advanced</h3>
+            </div>
+            <div class="cv-chapter__item">
+              <div class="date">2015</div>
+              <div class="course">IT STEP</div>
+              <h3 class="cv-chapter__subtitle">Manual QA</h3>
+            </div>
+            <div class="cv-chapter__item">
+              <div class="date">2004-2009</div>
+              <div class="course">Donetsk National Technical University</div>
+              <h3 class="cv-chapter__subtitle">Computer Systems Engineer</h3>
+            </div>
+          </div>
+        </div>
+        <!-- CODE EXAMPLE -->
+        <div id="code" class="code cv-chapter">
+          <h2 class="cv-chapter__title">Code Example</h2>
+          <div class="cv-chapter__info">
+            <div class="cv-chapter__item">
+              <button class="cv-chapter__subtitle accordion">
+                <span class="accordion-title">Get the Middle Character</span>
+                <span class="accordion-icon"><i class="fa-solid fa-plus"></i></span>
+              </button>
+              <div class="panel">
+                <pre>
+                    <code>
+                      function getMiddle(s){
+                        var res = (s.length % 2) ?  s[(s.length-1) / 2] : 
+                                                  s[ s.length / 2 - 1] + s[s.length / 2];
+                      
+                        return res;
+                      }
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PORTFOLIO -->
+        <div id="portfolio" class="portfolio cv-chapter">
+          <h2 class="cv-chapter__title">Portfolio</h2>
+          <div class="cv-chapter__info">
+            <div class="cv-chapter__item">
+              <button class="cv-chapter__subtitle accordion">
+                <span class="accordion-title">Front-End</span>
+                <span class="accordion-icon"><i class="fa-solid fa-plus"></i></span>
+              </button>
+              <div class="panel">
+                <div class="portfolio__row">
+                  <a href="//rolling-scopes-school.github.io/ekaterynavolkova-JSFE2023Q1/shelter/pages/main/index.html"
+                    target="_blank" class="portfolio__item">
+                    <img class="portfolio__image" src="./images/shelter.png" alt="Shelter">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">HTML, CSS, JS</div>
+                    </div>
+                  </a>
+                  <a href="//rolling-scopes-school.github.io/ekaterynavolkova-JSFE2023Q1/minesweeper/" target="_blank"
+                    class="portfolio__item">
+                    <img class="portfolio__image" src="./images/minesweeper.png" alt="Minesweeper">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">HTML, CSS, JS</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <button class="cv-chapter__subtitle accordion">
+                <span class="accordion-title">Back-End</span>
+                <span class="accordion-icon"><i class="fa-solid fa-plus"></i></span>
+              </button>
+              <div class="panel">
+                <div class="portfolio__row">
+                  <a href="//telescope.live/home" target="_blank" class="portfolio__item">
+                    <img class="portfolio__image" src="./images/telescope.png" alt="Telescope">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">Drupal 9</div>
+                    </div>
+                  </a>
+                  <a href="//www.leksandresort.se" target="_blank" class="portfolio__item">
+                    <img class="portfolio__image" src="./images/leksandr.png" alt="Leksand Resort">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">WordPress</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio__row">
+                  <a href="//airnewzealandwineprogramme.co.nz/" target="_blank" class="portfolio__item">
+                    <img class="portfolio__image" src="./images/anz.png" alt="ANZ">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">Drupal 7</div>
+                    </div>
+                  </a>
+                  <a href="//www.vinci-immobilier-institutionnel.com/" target="_blank" class="portfolio__item">
+                    <img class="portfolio__image" src="./images/vinci.png">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">Drupal 9</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio__row">
+                  <a href="//www.malmolundregionen.se/" target="_blank" class="portfolio__item">
+                    <img class="portfolio__image" src="./images/mlr.png" alt="MLR">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">WordPress</div>
+                    </div>
+                  </a>
+                  <a href="//www.hubintegration.com/woocommerce" target="_blank" class="portfolio__item">
+                    <img class="portfolio__image" src="./images/hubspot.png">
+                    <div class="portfolio__info">
+                      <div class="portfolio__title">Custom PHP Framework</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer-wrapper">
+      <a href="https://github.com/EkaterynaVolkova" target="_blank" class="github">GitHub</a>
       <div class="copyrights">@2023</div>
-      <a class="logo" href="https://rs.school/js/"><img src="./images/rs_school_js.svg" alt="logo"></a>
-    </footer>
-  </div>
+      <a class="logo" href="https://rs.school/js/" target="_blank"><img src="./images/rs_school_js.svg" alt="logo"></a>
+    </div>
+  </footer>
 </body>
 
 </html>
