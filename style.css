@@ -121,6 +121,9 @@ main {
 
 .contacts a {
   display: block;
+}
+
+.contacts li {
   margin: 15px 0;
 }
 
