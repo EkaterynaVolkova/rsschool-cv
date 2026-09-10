@@ -1,5 +1,5 @@
 # Ekaterina Volkova
-![avatar](/img/myavatar.jpg)
+![avatar](/img/myavatar.jpg )
 
 
 ## Contact Information
