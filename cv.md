@@ -1,4 +1,5 @@
 # Ekaterina Volkova
+![avatar](/img/myavatar.jpg)
 
 
 ## Contact Information
